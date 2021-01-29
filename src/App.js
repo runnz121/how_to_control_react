@@ -1,29 +1,14 @@
-import React, { Component} from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React,  { Component } from 'react';
+import SassComponent from './SassComponent';
 
 class App extends Component {
-render () {
-  return (
-    <div className ="App">
-    <header>
-      <img src={logo} className="logo" alt="logo" />
-      <p>
-        <a
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-      </p>
-    </header>
-    </div>
-
+  render() {
+    return (
+      <div>
+        <SassComponent />
+      </div>
     );
   }
 }
-
 
 export default App;
